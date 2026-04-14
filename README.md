@@ -108,17 +108,18 @@ Solved at each timestep using CasADi with IPOPT solver.
 - 8 alternating footsteps (left/right) successfully completed
 
 ## Project Structure
-LIP-MPC-Biped/
-├── src/
-│   ├── lip_model.py        # LIP dynamics + discretization
-│   ├── mpc_lip.py          # MPC controller with ZMP constraint
-│   └── gait_scheduler.py   # footstep generation + support polygons
-├── theory/
-│   └── lip_derivation.md   # full theoretical derivation
-├── results/
-│   └── lip_mpc_result.png
-├── requirements.txt
-└── main.py
+
+    LIP-MPC-Biped/
+    ├── src/
+    │   ├── lip_model.py
+    │   ├── mpc_lip.py
+    │   └── gait_scheduler.py
+    ├── theory/
+    │   └── lip_derivation.md
+    ├── results/
+    │   └── lip_mpc_result.png
+    ├── requirements.txt
+    └── main.py
 
 ## Setup & Run
 
