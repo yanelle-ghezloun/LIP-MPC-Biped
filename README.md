@@ -108,6 +108,7 @@ Solved at each timestep using CasADi with IPOPT solver.
 - 8 alternating footsteps (left/right) successfully completed
 
 ## Project Structure
+```
 LIP-MPC-Biped/
 ├── src/
 │   ├── lip_model.py        # LIP dynamics + discretization
@@ -119,6 +120,7 @@ LIP-MPC-Biped/
 │   └── lip_mpc_result.png
 ├── requirements.txt
 └── main.py
+```
 
 ## Setup & Run
 
